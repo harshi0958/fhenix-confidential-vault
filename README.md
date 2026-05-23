@@ -9,6 +9,7 @@ A privacy-preserving smart contract vault built using Solidity and Fhenix Fully 
 🌐 Web3 compatible
 📁 Organized smart contract project structure
 🧪 Easy testing and deployment setup
+
 🛠️ Tech Stack
 Solidity
 Hardhat
@@ -16,11 +17,13 @@ Fhenix
 FHE (Fully Homomorphic Encryption)
 JavaScript
 Ethereum
+
 📂 Project Structure
 contracts/      # Smart contracts
 scripts/        # Deployment scripts
 test/           # Test files
 ignition/       # Hardhat ignition modules
+
 ⚙️ Installation
 
 Clone the repository:
