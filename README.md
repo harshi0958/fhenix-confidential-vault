@@ -1,2 +1,13 @@
-# fhenix-confidential-vault
-A privacy-preserving smart contract vault built using Solidity and Fhenix Fully Homomorphic Encryption (FHE). This project enables secure and confidential storage of encrypted balances on-chain while maintaining data privacy in Web3 applications.
+# Sample Hardhat Project
+
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+
+Try running some of the following tasks:
+
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat ignition deploy ./ignition/modules/Lock.ts
+```
