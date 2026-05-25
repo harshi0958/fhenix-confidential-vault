@@ -1,67 +1,16 @@
-Fhenix Confidential Vault
+# React + Vite
 
-A privacy-preserving smart contract vault built using Solidity and Fhenix Fully Homomorphic Encryption (FHE). This project enables secure and confidential storage of encrypted balances on-chain while maintaining privacy and security in Web3 applications.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🚀 Features
-🔒 Encrypted balance storage using FHE
-🛡️ Privacy-focused smart contract architecture
-⚡ Built with Solidity and Hardhat
-🌐 Web3 compatible
-📁 Organized smart contract project structure
-🧪 Easy testing and deployment setup
+Currently, two official plugins are available:
 
-🛠️ Tech Stack
-Solidity
-Hardhat
-Fhenix
-FHE (Fully Homomorphic Encryption)
-JavaScript
-Ethereum
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-📂 Project Structure
-contracts/      # Smart contracts
-scripts/        # Deployment scripts
-test/           # Test files
-ignition/       # Hardhat ignition modules
+## React Compiler
 
-⚙️ Installation
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Clone the repository:
+## Expanding the ESLint configuration
 
-git clone https://github.com/your-username/fhenix-confidential-vault.git
-cd fhenix-confidential-vault
-
-Install dependencies:
-
-npm install
-▶️ Run the Project
-
-Compile contracts:
-
-npx hardhat compile
-
-Run tests:
-
-npx hardhat test
-
-Deploy contract:
-
-npx hardhat run scripts/deploy.js --network localhost
-🔐 About Fhenix
-
-This project is built using Fhenix technology, enabling encrypted computation on blockchain using Fully Homomorphic Encryption (FHE).
-
-📌 Future Improvements
-Frontend integration
-User authentication
-Multi-user encrypted vault system
-Advanced privacy controls
-🤝 Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-📜 License
-
-This project is for educational and learning purposes.
-
-Created By HARSHIT JARIWALA
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
